@@ -1,19 +1,19 @@
-import actionTypes from "../actionTypes";
+import actionTypes from '../actionTypes';
 
 export default {
-  setInputTitle: (title) => ({
+  setInputTitle: title => ({
     type: actionTypes.SET_INPUT_TITLE,
     title,
   }),
-  setInputContent: (content) => ({
+  setInputContent: content => ({
     type: actionTypes.SET_INPUT_CONTENT,
-    content,
+    content
   }),
-  setInputId: (id) => ({
+  setInputId: id => ({
     type: actionTypes.SET_INPUT_ID,
     id,
   }),
   resetInputs: () => ({
     type: actionTypes.RESET_INPUT,
-  }),
-};
+  })
+}
